@@ -98,11 +98,11 @@ Cache通常采用相联存储器(ContentAddressable Memory,CAM).基于`数据内
 #### 1.3.1 流水线周期 ####
   `流水线周期`:最耗时的阶段所消耗的时间为流水线周期.  
 #### 1.3.2 计算流水线执行时间 ####
-`流水线执行时间 = 第一条指令的执行时间 + (n-1)\times流水线周期`  
+$流水线执行时间 = 第一条指令的执行时间 + (n-1)\times流水线周期$  
 实际中,每个阶段时间统一为流水线周期
 #### 1.3.3 流水线的吞吐率 ####
 流水线的吞吐率(Though Put rate,TP)是指在单位时间内流水线所完成的任务数量或输出的结果数量.  
-	`TP =\frac{n}{T_k}`  
+	$TP =\frac{n}{T_k}$  
 	其中n为任务数,T_k是处理完成n个任务所用的时间.  
 	流水线的最大吞吐率为:  
 ![流水线的最大吞吐率](https://raw.githubusercontent.com/chundonghan/system-architect/master/img/ch1_3.png)  
