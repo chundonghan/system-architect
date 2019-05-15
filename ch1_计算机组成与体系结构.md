@@ -3,7 +3,8 @@
 > 计算机系统由`硬件`和`软件`组成  
   
 <center>图1 计算机各功能部件之间的合作关系</center>   
-![计算机各功能部件之间的合作关系](https://github.com/chundonghan/system-architect/blob/master/img/ch1_1.png)
+
+![图1](https://github.com/chundonghan/system-architect/blob/master/img/ch1_1.png)
 
 #### 1.1.1 硬件组成 ####
 1. 控制器  
