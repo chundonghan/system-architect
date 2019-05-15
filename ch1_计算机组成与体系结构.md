@@ -3,7 +3,7 @@
 > 计算机系统由`硬件`和`软件`组成  
   
 <center>图1 计算机各功能部件之间的合作关系</center>   
-<center>![计算机各功能部件之间的合作关系](https://raw.githubusercontent.com/chundonghan/system-architect/master/img/ch1_1.png)</center>  
+<center>![计算机各功能部件之间的合作关系](https://github.com/chundonghan/system-architect/blob/master/img/ch1_1.png)</center>  
 
 #### 1.1.1 硬件组成 ####
 1. 控制器  
@@ -38,7 +38,6 @@
 	根据指令流,数据流的多倍性特征对计算机系统进行分类.
 	> 1. 指令流: 指机器执行的指令序列
 	> 2. 数据流: 指由指令流调用的数据序列,包括输入数据和中间结果  
-	
 	#
 	> 根据不同的指令流-数据流组织方式,把计算机系统分成四类:  
 	> 1. 单指令流单数据流(SISD)  
@@ -49,7 +48,7 @@
 1. 复杂指令系统计算机(Complex Instruction Set Computer,CISC)
 2. 精简指令系统计算机(Reduced Instruction Set Computer,RISC)
 #### 1.1.4 总线 ####
-总线是一组能在多个部件**分时****共享**的公共信息传送线路.
+总线是一组能在多个部件**分时共享**的公共信息传送线路.
 #  
 - 按总线相对CPU或其他芯片的位置可分为`内部总线`和`外部总线`两种.
 - 按总线功能来划分可分为`地址总线`,`数据总线`,`控制总线`.
